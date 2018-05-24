@@ -60,7 +60,12 @@ export default {
 h1 {
   margin-top: 200px;
 }
+/* .container ul{
+ padding: 0;
+ margin: 0;
+} */
 .container ul li{
+    position: relative;
     padding:10px;
     margin: 0;
     display: flex;
@@ -69,9 +74,12 @@ h1 {
 .container ul li img{
     width: 50px;
     height: 50px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .container ul li .next{
+    position: absolute;
+    top: 32px;
+    right: 10px;
     border: 1px solid rgb(187, 183, 183);
     border-width: 0.1rem 0 0 0.1rem;
     width: 1rem;
@@ -79,8 +87,7 @@ h1 {
     -webkit-box-sizing: border-box;
     -webkit-transform-origin: 33.3% 33.3%;
     -webkit-transform: rotate(135deg);
-    margin-top: 22px;
-    margin-left:200px
+    
 }
 </style>
 
